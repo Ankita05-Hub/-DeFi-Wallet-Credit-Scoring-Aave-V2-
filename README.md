@@ -10,15 +10,18 @@ This project develops a machine learning-based credit scoring system for DeFi wa
 
 ## 📁 Project Structure
 
-- user-wallet-transactions.json – Raw transaction data (~100K records)
-- CreditScoring.ipynb – Main notebook with data parsing, feature engineering, and model training
-- wallet_scores.json – Rule-based score output (0–1000)
-- wallet_scores_rf.json – ML-enhanced (Random Forest) score output
-- analysis_plot_rf.png – Visual distribution of scores
-- analysis_plot_rf.py – Script to generate score distribution plot
-- analysis.md – Behavioral insights based on score ranges
-- README.md – This file
-
+CreditScoring-RF/
+│
+├── .gitignore
+├── CreditScoring.ipynb               # Main notebook containing the model implementation
+├── README.md                         # Project overview and instructions
+├── analysis.md                       # Additional analysis or insights
+├── requirements.txt                  # Dependencies for the project
+│
+├── score_distribution_rf.png         # Output visualization (e.g., score distribution plot)
+│
+├── user-wallet-transactions.json     # Input data: user wallet transaction details
+├── wallet_scores_rf.json             # Output data: credit scores predicted by the model
 ---
 
 ## 📦 Features Extracted per Wallet
