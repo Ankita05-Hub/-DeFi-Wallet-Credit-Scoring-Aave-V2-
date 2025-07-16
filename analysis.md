@@ -61,10 +61,3 @@ The Random Forest model enhances credit scoring by learning complex interactions
 
 The final scores (wallet_scores_rf.json) can be used in DeFi credit evaluation pipelines, loan platforms, or on-chain reputation systems.
 """
-
-# Save the analysis.md file
-analysis_md_path = "/mnt/data/analysis.md"
-with open(analysis_md_path, "w", encoding="utf-8") as f:
-    f.write(analysis_md_content)
-
-analysis_md_path
