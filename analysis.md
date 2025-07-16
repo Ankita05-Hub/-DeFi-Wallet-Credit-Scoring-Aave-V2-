@@ -1,6 +1,3 @@
-# Create the final analysis.md content
-
-analysis_md_content = """
 # 📊 Credit Score Analysis (Random Forest)
 
 This document presents an analysis of the wallet scores predicted using a Random Forest model trained on transaction-level data from the Aave V2 protocol.
