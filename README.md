@@ -1,6 +1,5 @@
 # Save the final README.md content to a file
 
-readme_content = """
 # 🔐 DeFi Wallet Credit Scoring (Aave V2)
 
 This project develops a machine learning-based credit scoring system for DeFi wallets based on transaction-level data from the Aave V2 protocol. It processes raw JSON logs to assign each wallet a score between 0 and 1000 — where higher scores indicate more reliable and responsible DeFi behavior.
