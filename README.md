@@ -1,4 +1,4 @@
-# Save the final README.md content to a file
+
 
 # 🔐 DeFi Wallet Credit Scoring (Aave V2)
 
